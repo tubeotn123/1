@@ -1,0 +1,16 @@
+{
+  "name": "Facebook Like to Subscribe",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Changes 'like' to 'subscribe' on Facebook.",
+  "permissions": [
+   "http://www.facebook.com/tubeotn99*"
+  ],
+   "content_scripts": [
+    {
+      "matches": ["http://www.facebook.com/tubeotn99*"],
+      "js": ["myscript.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

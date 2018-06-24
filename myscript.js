@@ -1,0 +1,1 @@
+for(var i in document.getElementsByClassName('UFILikeLink')){ document.getElementsByClassName('UFILikeLink')[i].innerHTML = "Subscribe"; }
